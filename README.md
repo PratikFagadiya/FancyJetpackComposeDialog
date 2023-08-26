@@ -1,13 +1,13 @@
 
-# Fancy Compose Dialogs
+# Fancy Jetpack Compose Dialogs
 
-"Elevate your app's dialogs with '**FancyComposeDialogs**' using Jetpack Compose magic! ✨📲"
+"Elevate your app's dialogs with '**FancyJetpackComposeDialogs**' using Jetpack Compose magic! ✨📲"
 
 ## Introduction
 
-Introducing "**FancyComposeDialogs**"! 🚀 Elevate your app with captivating dialogs using Jetpack   Compose. With ComposeDialogs, displaying dialogs in your app becomes a breeze. whether it's success  messages, errors, information, or warnings, this library offers a range of dialog types with unique  designs. 🎉
+Introducing "**FancyJetpackComposeDialogs**"! 🚀 Elevate your app with captivating dialogs using Jetpack   Compose. With ComposeDialogs, displaying dialogs in your app becomes a breeze. whether it's success  messages, errors, information, or warnings, this library offers a range of dialog types with unique  designs. 🎉
 
-✨. Experience both the classic dialog style and an innovative upper-cut design, all while  enjoying the simplicity and elegance of Jetpack Compose. Try it now to enhance your user experience!  💬📲 **#FancyComposeDialogs**
+✨. Experience both the classic dialog style and an innovative upper-cut design, all while  enjoying the simplicity and elegance of Jetpack Compose. Try it now to enhance your user experience!  💬📲 **#FancyJetpackComposeDialogs**
 
 _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)_
 
@@ -20,9 +20,20 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
     <th>3. Error Dialog</th>  
   </tr>  
   <tr>  
-    <td><img src="https://github.com/PratikFagadiya/FancyComposeDialog/raw/master/art/normalsuccess_dialog.gif"/></td>  
-    <td><img src="https://github.com/PratikFagadiya/FancyComposeDialog/raw/master/art/fancysucess_dialog.gif"/></td>  
-    <td><img src="https://github.com/PratikFagadiya/FancyComposeDialog/raw/master/art/normalerror_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/normalsuccess_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/fancysucess_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/normalerror_dialog.gif"/></td>  
+  </tr>  
+
+  <tr>  
+    <th>4. Fancy Error Dialog</th>  
+    <th>5. Warning Dialog</th>  
+    <th>6. Fancy Warning Dialog</th>  
+  </tr>  
+  <tr>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/fancyerror_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/normalwarning_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/fancywarning_dialog.gif"/></td>  
   </tr>  
   <tr>  
     <th>7. Information Dialog</th>  
@@ -30,8 +41,8 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
     <th></th>  
   </tr>  
   <tr>  
-  <td><img src="https://github.com/PratikFagadiya/FancyComposeDialog/raw/master/art/info_dialog.gif"/></td>  
-    <td><img src="https://github.com/PratikFagadiya/FancyComposeDialog/raw/master/art/info_confirmation_dialog.gif"/></td>  
+  <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/info_dialog.gif"/></td>  
+    <td><img src="https://github.com/PratikFagadiya/FancyJetpackComposeDialog/raw/master/art/info_confirmation_dialog.gif"/></td>  
     <td></td>  
   </tr>  
 
@@ -39,7 +50,7 @@ _Made with love  ❤️ by  [Pratik Fagadiya](https://github.com/pratikfagadiya)
 </table>  
 
 ## Implementation
-Implementation of FancyComposeDialog library is so easy. You can check [/app](https://github.com/PratikFagadiya/FancyComposeDialog/blob/master/app) directory for demo. Let's have look on basic steps of implementation.
+Implementation of FancyJetpackComposeDialogs library is so easy. You can check [/app](https://github.com/PratikFagadiya/FancyJetpackComposeDialog/tree/master/app) directory for demo. Let's have look on basic steps of implementation.
 
 ### Prerequisite
 
@@ -52,9 +63,9 @@ dependencyResolutionManagement {
     maven { url "https://www.jitpack.io" }
  }}  
 ```  
-Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https://jitpack.io/v/PratikFagadiya/FancyComposeDialog.svg)](https://jitpack.io/#PratikFagadiya/FancyComposeDialog)
+Declare the dependencies in the module-level `build.gradle` file 🍀 [![](https://jitpack.io/v/PratikFagadiya/FancyJetpackComposeDialog.svg)](https://jitpack.io/#PratikFagadiya/FancyJetpackComposeDialog)
 ```gradle  
- dependencies { implementation 'com.github.PratikFagadiya:FancyComposeDialog:<LATEST_VERSION>' }
+ dependencies { implementation 'com.github.PratikFagadiya:FancyJetpackComposeDialog:<LATEST_VERSION>' }
 ```  
 # How to use it ?
 Fancy dialogs come in four types: `Success`, `Error`, `Warning`, and `Informative`. Each type is designed to communicate a specific message to the user in a visually appealing way.
@@ -116,7 +127,7 @@ fun showSuccessDialog() {
 
 The same parameters will work on any types of dialogs
 
-You can check [MainActivity](https://github.com/PratikFagadiya/FancyComposeDialog/blob/e8149c50e6bafd42c5afd6f133437598ca943efb/app/src/main/java/com/patrik/fancycomposedialog/MainActivity.kt#L61) file for multiple types of dialog implementation.
+You can check [MainActivity](https://github.com/PratikFagadiya/FancyJetpackComposeDialog/blob/bd8e270734c5865886717576ea21b35af0ccd7a9/app/src/main/java/com/patrik/fancyJetpackcomposedialog/MainActivity.kt#L61) file for multiple types of dialog implementation.
 
 ## Donate
 
@@ -137,7 +148,7 @@ me, consider buying me a cup of :coffee:
 ## Contribution 🤝
 
 - If you would like to contribute you're most welcome! 💛    
-  See [Contributing Guidelines](https://github.com/PratikFagadiya/FancyComposeDialog/blob/master/CONTRIBUTING.md).    
+  See [Contributing Guidelines](https://github.com/PratikFagadiya/FancyJetpackComposeDialog/blob/master/CONTRIBUTING.md).    
   <br />
 
 ## Connect with me
