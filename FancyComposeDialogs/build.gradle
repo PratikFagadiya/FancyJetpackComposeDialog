@@ -60,7 +60,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.PratikFagadiya'
                 artifactId = 'fancycomposedialogs'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
