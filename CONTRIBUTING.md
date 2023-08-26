@@ -1,4 +1,4 @@
-## Welcome Dev!, Thanks for taking interest on making FancyComposeDialog library more better.
+## Welcome Dev!, Thanks for taking interest on making FancyJetpackComposeDialog library more better.
 
 ### What you can do
 You can contribute us by filing issues, bugs and PRs.
