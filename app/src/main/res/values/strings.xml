@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FancyJetpackComposeDialog</string>
+    <string name="positive_button_clicked">Positive Button Clicked</string>
+    <string name="negative_button_clicked">Negative Button Clicked</string>
+    <string name="neutral_button_clicked">Neutral Button Clicked</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+</resources>
